@@ -18,6 +18,7 @@ $(document).ready(function () {
         var startLeft = (viewportWidth - totalWidth) / 2;
 
         $('.balloons').stop();
+        $('.balloons').removeClass('balloons-rotate-behaviour-one balloons-rotate-behaviour-two');
 
         $('.balloons').each(function (index) {
             $(this).animate({
